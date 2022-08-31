@@ -18,7 +18,7 @@ services:
       - librebooking
 
   lb:
-    image: limosek/librebooking
+    image: limosek/librebooking:andy
     restart: always
     depends_on:
       - mariadb
