@@ -26,11 +26,11 @@ authToken = json.loads(response.text)['sessionToken']
 
 header = {
 	"X-Booked-SessionToken": authToken,
-	"X-Booked-UserId": 2
+	"X-Booked-UserId": "2"
 }
 print(header)
 
-response = requests.get("http://10.4.104.171:8080/Services/Resources/GetAllResources", headers=header)
+response = requests.get("http://10.4.104.171:8080/Services/Resources/", headers=header)
 
 print(response.text)
 
