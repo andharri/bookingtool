@@ -1,4 +1,4 @@
-# Welcome to LibreBooking
+#S Welcome to LibreBooking
 
 This is a community effort to keep the OpenSource [GPLv3](./LICENSE.md) LibreBooking alive, see [History](./doc/HISTORY.md)
 
