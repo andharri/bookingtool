@@ -1,1 +1,0 @@
-{$AnnouncementText|nl2br}
