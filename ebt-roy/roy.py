@@ -32,5 +32,8 @@ print(header)
 
 response = requests.get("http://10.4.104.171:8080/Services/Resources/", headers=header)
 
-print(response.text)
+#print(response.text)
+
+for x in json.loads(response.text)['resources']:
+	print(x)
 
