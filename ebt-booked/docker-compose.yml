@@ -18,7 +18,7 @@ services:
       - librebooking
 
   lb:
-    image: limosek/librebooking:andy
+    image: ebt-booked
     restart: always
     depends_on:
       - mariadb
